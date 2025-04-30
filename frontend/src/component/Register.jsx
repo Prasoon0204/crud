@@ -9,7 +9,7 @@ const Register = () => {
             name:e.target.name.value,
             age:e.target.age.value
         }
-        await axios.post('http://localhost:9000/users',user)
+        await axios.post('https://crud-tpge.onrender.com/users',user)
         alert("data successfully save")
     }
 
